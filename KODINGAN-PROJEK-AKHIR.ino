@@ -76,7 +76,7 @@ Serial.println("cm");
 Serial.println("Cetak ke serial monitor");
   Blynk.notify("Cetak ke serial monitor");
   x0 = 25-jarak2; //Line untuk kalkulasi persentase sampah
-  binLevel = x0* 100/25; // Angka 10 harus sama dengan angka diatasnya
+  binLevel = x0* 100/25; // Angka 25 harus sama dengan angka diatasnya
   Blynk.virtualWrite(Your Virtual pin, binLevel);
 }
 else{
